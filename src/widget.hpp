@@ -1,5 +1,5 @@
-#ifndef MYWIDGET_HPP
-# define MYWIDGET_HPP
+#ifndef WIDGET_HPP
+# define WIDGET_HPP
 
 # include <QWidget>
 
@@ -23,4 +23,4 @@ protected:
   void paintEvent(QPaintEvent* event);
 };
 
-#endif                                                      // MYWIDGET_HPP
+#endif                                                      // WIDGET_HPP
