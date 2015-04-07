@@ -69,7 +69,9 @@ void Widget::parse_yaml()
 void Widget::paintEvent(QPaintEvent* event)
 {
   QWidget::paintEvent(event);
+
   QPainter painter(this);
+  painter.setRenderHint(QPainter::Antialiasing);
 
   int X = 20, Y = 20;
   for (const Shape* shape : shapes)
